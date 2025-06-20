@@ -24,20 +24,20 @@ A modern, responsive password generator built using React. This tool allows user
 [Password Generator](https://generate-passwrd.netlify.app/)
 
 ## 📂 Folder Structure
-password-generator/
-├── public/
-│ └── vite.svg
-├── src/
-│ ├── App.jsx
-│ ├── index.css
-│ └── main.jsx
-├── .gitignore
-├── package-lock.json
-├── eslint.config.json
-├── package.json
-├── vite.config.json
-├── index.html
-└── README.md
+  password-generator/
+  ├── public/
+  │ └── vite.svg
+  ├── src/
+  │ ├── App.jsx
+  │ ├── index.css
+  │ └── main.jsx
+  ├── .gitignore
+  ├── package-lock.json
+  ├── eslint.config.json
+  ├── package.json
+  ├── vite.config.json
+  ├── index.html
+  └── README.md
 
 ---
 
