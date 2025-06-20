@@ -35,6 +35,7 @@ A modern, responsive password generator built using React. This tool allows user
   ├── .gitignore
   ├── package-lock.json
   ├── eslint.config.json
+  ├── LICENSE
   ├── package.json
   ├── vite.config.json
   ├── index.html
