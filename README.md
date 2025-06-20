@@ -24,6 +24,7 @@ A modern, responsive password generator built using React. This tool allows user
 [Password Generator](https://generate-passwrd.netlify.app/)
 
 ## 📂 Folder Structure
+  ```text
   password-generator/
   ├── public/
   │ └── vite.svg
