@@ -96,28 +96,7 @@ Deploy the contents of the build folder using:
 
 ---
 
-## 🧠 Sample Password Generation Logic
 
-<!-- code block starts -->
-```js
-const generatePassword = (length, useUpper, useLower, useNumbers, useSymbols) => {
-  const upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-  const lower = "abcdefghijklmnopqrstuvwxyz";
-  const numbers = "0123456789";
-  const symbols = "!@#$%^&*()_+-=[]{}|;:',.<>/?";
-
-  let pool = "";
-  if (useUpper) pool += upper;
-  if (useLower) pool += lower;
-  if (useNumbers) pool += numbers;
-  if (useSymbols) pool += symbols;
-
-  if (pool === "") return "";
-
-  return Array.from({ length }, () => pool[Math.floor(Math.random() * pool.length)]).join('');
-};
-```
-<!-- code block ends -->
 
 ---
 
