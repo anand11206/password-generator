@@ -1,12 +1,65 @@
-# React + Vite
+# 🔐 Password Generator - React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive password generator built using React. This tool allows users to generate secure, customizable passwords quickly and easily. Ideal for developers, security-conscious users, and general productivity.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Generate random secure passwords
+- Customizable length
+- Options to include:
+  - Custom Length  
+  - Numbers
+  - Special characters
+- Copy to clipboard functionality
+- Accessible UI
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React (Vite)
+- Tailwind CSS
+- JavaScript (ES6+)
+
+## 📸 Demo
+
+![Password Generator](https://generate-passwrd.netlify.app/)
+
+## 📂 Folder Structure
+password-generator/
+├── public/
+│ └── vite.svg
+├── src/
+│ ├── App.jsx
+│ ├── index.css
+│ └── main.jsx
+├── .gitignore
+├── package-lock.json
+├── eslint.config.json
+├── package.json
+├── vite.config.json
+├── index.html
+└── README.md
+
+---
+
+## ⚙️ Installation & Setup
+
+### Prerequisites
+
+- Node.js (v18 or later)
+- npm
+
+### Steps
+
+```bash
+# Clone the repository
+git clone [https://github.com/yourusername/react-password-generator.git](https://github.com/anand11206/password-generator.git)
+cd password-generator
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev     # for Vite
+
+# Build for production
+npm run build
