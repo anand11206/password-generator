@@ -39,7 +39,7 @@ A modern, responsive password generator built using React. This tool allows user
   ├── vite.config.json
   ├── index.html
   └── README.md
-
+```
 ---
 
 ## ⚙️ Installation & Setup
